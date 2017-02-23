@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: '微软雅黑';
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+
+
+
+
+/*头部*/
+.top{
+	width: 100%;
+	height: 285px;
+	border-bottom:7px solid #d80c18;
+}
+.top1{
+	z-index: 9999;
+	width: 100%;
+	background: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.top1 img{
+	float: left;
+}
+.top1 ul{
+	float: right;
+}
+.top1 ul li{
+	float: left;
+	display: inline-block;
+	height: auto;
+	font-size: 15px;
+	padding:36px 25px;
+}
+.top_a{
+	color: #1e1e1e;
+}	
+.gy{
+	width: 60px;
+	/*height: 92px;*/
+	display: block;
+	position: relative;
+}
+.secondDiv{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 92px;
+	width: 110px;
+	height: auto;
+	line-height: none;
+}
+.secondDiv a{
+	display: inline-block;
+	margin-top:3px; 
+	height: auto;
+	width: 110px;
+	text-align: center;
+	line-height: 26px;
+	color: #1e1e1e;
+	background:#cfd0d2;
+	font-size: 14px;
+}
+.top2{
+	margin-top:92px; 
+	width: 100%;
+	/*height: auto;*/
+}
+.top2 img{
+	width: 100%;
+	height: 285px;
+}
+.top2 span{
+	position: absolute;
+	top: 270px;
+	left: 195px;
+	font-size: 34px;
+	color: white;
+}
+
+
+/*头部*/
+
+
+
+
+/*中间部分*/
+.middle{
+	background: #f4f4f4;
+	width: 100%;
+	border-bottom:7px solid red; 
+}
+.middle1{
+	width: 100%;
+	padding:92px 0 63px 0; 
+	text-align: center;
+}
+.middle1 span{
+	font-size: 30px;
+	color: #d80c18;
+	padding:0 30px;
+	vertical-align: middle;
+}
+
+.middle2{
+	display: inline-block;
+	margin-left: 174px;
+}
+.middle2_li{
+	position: relative;
+	width: 1012px;
+	/*height: 46px;*/
+	line-height: 46px;
+	color: #595757;
+	background: #d5d5d5;
+	font-size: 20px;
+}
+.middle2_li_img1{
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+.middle2_li_img2{
+	position: absolute;
+	display: none;
+	right: 30px;
+	top: 20px;
+}
+.middle2_div{
+	background: white;
+	display: none;
+	padding-bottom: 70px;
+}
+.middle2_div_ul{
+	padding-top: 58px;
+	margin-left: 60px;
+}
+.middle2_div_ul span{
+	font-size: 18px;
+}
+.middle2_div_ul li{
+	font-size: 15px;
+	line-height: 33px;
+}
+.middle3{
+	margin: 65px 0 0 177px;
+	padding-bottom: 74px;
+	/*border: 7px solid red;*/
+}
+.middle_next{
+	background: url(../img/招聘4.png);
+	width: 100%;
+	padding-bottom:113px; 
+	/*border-bottom:7px solid red; */
+}
+.middle_next1{
+	width: 100%;
+	padding:90px 0 53px 0; 
+	text-align: center;
+}
+.middle_next1 span{
+	font-size: 30px;
+	color: #d80c18;
+	padding:0 30px;
+	vertical-align: middle;
+}
+
+.middle_next2{
+	margin-left: 152px;
+	width: 1066px;
+	border-radius: 3px;
+	border: 2px solid #dadada;
+}
+.middle_next2_div1{
+	float: left;
+	width: 440px;
+	margin:23px 56px 38px 31px; 
+}
+
+.middle_next2_div2{
+	float: left;
+	margin-top: 49px;
+	/*margin-right: 30px;*/
+	margin-bottom: 63px;
+	/*margin-left: 133px;*/
+	width: 520px;
+}
+.middle_next2_div2_span1{
+	display: inline-block;
+	font-size: 20px;
+	padding-bottom: 7px;
+	width: 352px;
+	border-bottom:2px solid #e8e8e8; 
+	color: #595757;
+}
+.middle_next2_div2_p1{
+	padding-top: 7px;
+	font-size: 16px;
+	line-height: 31px;
+	color: #595757;
+}
+
+.middle_next3{
+	margin-left: 152px;
+	margin-top: 45px;
+	/*margin-bottom: 141px;*/
+	width: 1066px;
+	border: 2px solid #dadada;
+	border-radius: 3px;
+}
+.middle_next3_div1{
+	float: left;
+	width: 440px;
+	margin:30px 0 44px 0; 
+}
+
+.middle_next3_div2{
+	float: left;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 41px;
+	margin-left: 53px;
+	width: 520px;
+}
+.middle_next3_div2_span1{
+	display: inline-block;
+	font-size: 20px;
+	padding-bottom: 7px;
+	width: 352px;
+	border-bottom:2px solid #e8e8e8; 
+	color: #595757;
+}
+.middle_next3_div2_p1{
+	padding-top: 7px;
+	font-size: 16px;
+	line-height: 31px;
+	color: #595757;
+}
+
+
+.return1{
+	position: fixed;
+	border: none;
+	display: none;
+	bottom: 457px;
+	right: 0;
+}
+/*中间部分*/
+
+
+
+
+
+
+/*尾部*/
+.bottom{
+	width: 100%;
+	height: 457px;
+}
+.bottom1{
+	width: 100%;
+	height: 168px;
+	text-align: center;
+	line-height: 168px;
+}
+.bottom1 span{
+	font-size: 30px;
+	color: #d80c18;
+	padding:0 30px;
+	vertical-align: middle;
+}
+.bottom2{
+	width: 100%;
+	height: 223px;
+}
+.bottom3{
+	width: 100%;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	background: #e03d46;
+	font-size: 20px;
+	color: #f6d6d7;
+}
+
+
+
+
+/*尾部*/

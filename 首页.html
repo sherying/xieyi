@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/首页.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/lunbo.js"></script>
+<script>
+	$(function(){
+
+		$('.uls li').hover(function(){
+			$(this).stop(true,true).animate({
+				backgroundColor:'#d80c18',
+			},500);
+			$(this).find('.secondDiv').stop(true,true).slideDown(500);
+		},function(){
+			$(this).stop(true,true).animate({
+				backgroundColor:'none'
+			},500)
+			$(this).find('.secondDiv').stop(true,true).slideUp(500);
+		})
+
+		$('.top_a').hover(function(){
+			$(this).stop(true,true).animate({
+				color:'white'
+			},500)
+		},function(){
+			$(this).stop(true,true).animate({
+				color:'#1e1e1e'
+			},500)
+		})
+
+		$('.secondDiv a').hover(function(){
+			$(this).stop(true,true).animate({
+				backgroundColor:'#d80c18',
+				opacity:0.5
+			},500,function(){
+				$(this).stop(true,true).animate({color:"white"},500);
+			})
+		},function(){
+			$(this).stop(true,true).animate({
+				backgroundColor:'none',
+				color:'#1e1e1e',
+				opacity:1
+			},500,function(){
+				$(this).stop(true,true).animate({color:"black"},500);
+			})
+		})
+
+		var return1 = document.getElementById('return1');
+		var time = null;
+		window.onscroll = function(){
+			var top = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+			if(top>=400){
+				return1.style.display='block';
+			}
+			else{
+				return1.style.display='none';
+			}
+		}
+		// return1.onclick=function(){
+		// 	clearInterval(time);
+		// 	time = setInterval(function(){
+		// 		var speed = 60;
+		// 		document.body.scrollTop-=speed;
+		// 		document.documentElement.scrollTop-=speed;
+		// 	 	var scrollTop = document.body.scrollTop || window.pageYOffset || document.documentElement.scrollTop; 
+		// 	 	if(scrollTop == 0){
+		// 		clearInterval(time);
+		// 	} 	
+		// 	},20)
+		// }
+		$('.middle1-2').hover(function(){
+			$(this).find('.middle1-2_img3').stop(true,false).animate({'left':'0px'},1000);
+			// $(this).find('img[1]').stop(true,false).animate({'display':'none'},1000);
+			$(this).find('.middle1-2_img3').next().stop(true,false).animate({'opacity':1},1000);
+		},function(){
+			$(this).find('.middle1-2_img3').stop(true,false).animate({'left':'-233px'},1000);
+			// $(this).find('img[1]').stop(true,false).animate({'opacity':'block'},1000);
+			$(this).find('.middle1-2_img3').next().stop(true,false).animate({'opacity':0},1000);
+		})
+
+		$('#dowebok').fullpage({
+		});
+	
+		$(".lubo").lubo({
+		});
+
+ 		$(".lubo").css('height',$(window).height());
+    	$(".lubo_box").css('height',$(window).height());
+   	 	$(".lubo_box li").css('height',$(window).height());
+    	$(".lubo_box li img").css('height',$(window).height());
+
+	})
+</script>
+</head>
+<body>
+<div id="dowebok">
+	<div class="section">
+		<img src="img/图标.png" class="section_img1" alt="">
+		<img src="img/首页_03.png" class="section_img2" alt="">
+		<div class="lubo">
+		   	<ul class="lubo_box">
+			     <li style=" opacity: 1;filter:alpha(opacity=100);"><a href=""><img src="img/首页第一屏1.png"></a></li>
+			     <li><a href=""><img src="img/首页第一屏2.png"></a></li>
+			     <li><a href=""><img src="img/首第一屏3.png"></a></li>
+		   </ul>
+		</div>
+	</div>
+	<div class="section section2">
+		<div class="middle1-1">
+			<img src="img/首页_r2_c3.png" alt="">
+			<span>旗下品牌</span>
+			<img src="img/首页_r2_c3.png" alt="">
+		</div>
+		<div class="middle1-2_1">
+			<div class="middle1-2">
+				<div class="middle1-2-1">
+					<img class="middle1-2_img2" src="img/sy_2_1.png" alt="">
+					<img class="middle1-2_img1" src="img/One_word_01.png" alt="">
+					<img class="middle1-2_img3" src="img/One_brand_07.png" alt="">
+					<img class="middle1-2_img4" src="img/tu1.png" alt="">
+				</div>
+			</div>
+			<div class="middle1-2">
+				<div class="middle1-2-1">
+					<img class="middle1-2_img5" src="img/sy_2_2.png" alt="">
+					<img class="middle1-2_img6" src="img/One_word_02.png" alt="">
+					<img class="middle1-2_img3" src="img/One_brand_07.png" alt="">
+					<img class="middle1-2_img7" src="img/tu2.png" alt="">
+				</div>
+			</div>
+			<div class="middle1-2">
+				<div class="middle1-2-1">
+					<img class="middle1-2_img8" src="img/sy_2_3.png" alt="">
+					<img class="middle1-2_img9" src="img/One_word_03.png" alt="">
+					<img class="middle1-2_img3" src="img/One_brand_07.png" alt="">
+					<img class="middle1-2_img10" src="img/tu3.png" alt="">
+				</div>
+			</div>
+			<div class="middle1-2">
+				<div class="middle1-2-1">
+					<img class="middle1-2_img11" src="img/sy_2_4.png" alt="">
+					<img class="middle1-2_img12" src="img/One_word_04.png" alt="">
+					<img class="middle1-2_img3" src="img/One_brand_07.png" alt="">
+					<img class="middle1-2_img13" src="img/tu4.png" alt="">
+				</div>
+			</div>
+			<div class="middle1-2">
+				<div class="middle1-2-1">
+					<img class="middle1-2_img14" src="img/sy_2_5.png" alt="">
+					<img class="middle1-2_img15" src="img/One_word_05.png" alt="">
+					<img class="middle1-2_img3" src="img/One_brand_07.png" alt="">
+					<img class="middle1-2_img16" src="img/tu5.png" alt="">
+				</div>
+			</div>
+			<div class="middle1-2">
+				<div class="middle1-2-1">
+					<img class="middle1-2_img17" src="img/sy_2_6.png" alt="">
+					<img class="middle1-2_img18" src="img/One_word_06.png" alt="">
+					<img class="middle1-2_img3" src="img/One_brand_07.png" alt="">
+					<img class="middle1-2_img19" src="img/tu6.png" alt="">
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+		</div>		
+	</div>
+	<div class="section section3">
+		<!-- 首部 -->
+		<div class="top">
+			<div class="top1">
+				<img src="img/logo.png" alt="">
+				<ul class="uls">
+					<li class="sy"><a class="top_a" href="">首页</a></li>
+					<li class="gy"><a class="top_a" href="">关于写意</a>
+					<div class="secondDiv">
+						<a href="">企业文化</a>
+						<a href="">新闻中心</a>
+					</div>
+					</li>
+					<li class="sz"><a class="top_a" href="">写意数字</a></li>
+					<li class="yf"><a class="top_a" href="">意凡空间设计</a></li>
+					<li class="xy"><a class="top_a" href="">写意BIM</a></li>
+					<li class="yz"><a class="top_a" href="">意展展示</a></li>
+					<li class="rc"><a class="top_a" href="">人才招聘</a></li>
+					<li class="lx"><a class="top_a" href="">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- 中部 -->
+		<div class="middle">
+			<div class="middle1">
+				<img src="img/首页_r2_c3.png" alt="">
+				<span>写意集团</span>
+				<img src="img/首页_r2_c3.png" alt="">
+			</div>
+			<div class="middle2">
+				<span>写意集团，中国第一批数字展示综合方案提供商，自1998年成立，至今17年项目经验积累。集团旗下设立写意数字、意展、意凡、写意BIM4大子品牌。共设有6个国内全资子公司及1个欧洲联络处，分别为上海集团总部、武宁分部、同济分部、南宁分部、徐汇分部、北海分部及慕尼黑联络处。截止到目前为止，写意集团共服务过（2820）家国内客户，百余家国外客户；完成项目案例（2W）套。多年口碑积累，使写意集团在政府、地产、企业和专业设计师领域备受关注。同时集团下设的人才与研发中心，为集团提供业内最新的高新技术研发，强化技术实力；培训相关技术操作人员，输送新鲜血液，从内部支持集团各子品牌的全面成长。</span>
+			</div>
+			<div class="middle3">
+				<p><img src="img/首页8.png" alt="">子品牌写意数字专注于为设计领域提供效果图、3D影像及三维互动业务服务；</p>
+				<p style="margin-top: 8px;"><img src="img/首页8.png" alt="">子品牌意展专注于为企业、政府的创意展馆项目提供策划、设计及施工三环一体化解决方案；</p>
+				<p style="margin-top: 8px;"><img src="img/首页8.png" alt=""> 子品牌意凡专注于室内创意设计及后期施工，为品牌解决全套室内装修工作。</p>
+				<p style="margin-top: 8px;"><img src="img/首页8.png" alt="">写意BIM则专注于建筑信息模型在建筑领域的操作应用及推广</p>
+			</div>
+			<div class="middle4">
+				<span>在未来，写意集团继续运用先进的CRM客户管理平台及OA管理系统，为房地产、 政府、军事、工业产品、影视、医疗等相关领域提供综合数字展示项目，为企业及政府带来更清晰，更直观，更高效的形象展示。</span>
+			</div>
+			<div class="middle5">
+			<a href=""><button>更多</button></a>
+			</div>
+		</div>
+		<!-- <img id="return1" class="return1" src="img/返回顶部图标.png" alt=""> -->
+	
+	</div>
+	<!-- 尾部	 -->
+	<div class="section section4">
+		<div class="bottom">
+			<div class="bottom1">
+				<img src="img/首页_r2_c3.png" alt="">
+				<span>联系我们</span>
+				<img src="img/首页_r2_c3.png" alt="">
+			</div>
+			<div class="bottom2">
+				<img src="img/首页_r2_c2.png" alt="">
+			</div>
+			<div class="bottom3">
+				<span>Copyright&nbsp;&copy;&nbsp;1998-2015&nbsp;写意集团版权所有</span>
+			</div>
+		</div>
+	</div>
+</div>	
+</body>
+</html>

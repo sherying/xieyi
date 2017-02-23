@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联系我们</title>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="css/联系我们.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+</head>
+<body>
+<div class="box">
+	<!-- 首部 -->
+	<div class="top">
+		<div class="top1">
+			<img src="img/logo.png" alt="">
+			<ul class="uls">
+				<li class="sy"><a class="top_a" href="">首页</a></li>
+				<li class="gy"><a class="top_a" href="">关于写意</a>
+				<div class="secondDiv">
+					<a href="">企业文化</a>
+					<a href="">新闻中心</a>
+				</div>
+				</li>
+				<li class="sz"><a class="top_a" href="">写意数字</a></li>
+				<li class="yf"><a class="top_a" href="">意凡空间设计</a></li>
+				<li class="xy"><a class="top_a" href="">写意BIM</a></li>
+				<li class="yz"><a class="top_a" href="">意展展示</a></li>
+				<li class="rc"><a class="top_a" href="">人才招聘</a></li>
+				<li class="lx"><a class="top_a" href="">联系我们</a></li>
+			</ul>
+		</div>
+		<div class="top2">
+			<img src="img/联系我们1.png" alt="">
+			<span>联系我们&nbsp;&nbsp;Contact US</span>
+		</div>
+	</div>
+
+	<!-- 中部 -->
+	<div class="middle">
+		<div class="middle_div">
+		<span class="middle_span1"><p></p>集团总部及各分公司地址</span>
+		<ul>
+			<li class="middle_li">
+				<p class="middle_li_p1">集团总部</p>
+				<span class="middle_li_p2">上海市杨浦区四平路1147弄2号（创意中心）<a href="javascript:;"><img src="img/联系我们3.png" alt=""></a></span>
+				<p class="middle_li_p3">电话：+86 21 6598 6866 / 6598 3188</p>
+			</li>
+			<li class="middle_li">
+				<p class="middle_li_p1">虹桥分公司</p>
+				<span class="middle_li_p2">上海长宁区虹桥路996弄161号706室（圣骊虹桥创意园）<a href="javascript:;"><img src="img/联系我们3.png" alt=""></a></span>
+				<p class="middle_li_p3">电话：+86 21 5230 2576 / 5230 2572</p>
+			</li>
+			<li class="middle_li">
+				<p class="middle_li_p1">同济分公司</p>
+				<span class="middle_li_p2">上海市杨浦区四平路1388号同济联合广场C座803（联合）<a href="javascript:;"><img src="img/联系我们3.png" alt=""></a></span>
+				<p class="middle_li_p3">电话：+86 21 3362 6277 / 3362 6285</p>
+			</li>
+			<li class="middle_li">
+				<p class="middle_li_p1">南宁分公司</p>
+				<span class="middle_li_p2">广西南宁中山路66号金外滩大厦4楼<a href="javascript:;"><img src="img/联系我们3.png" alt=""></a></span>
+				<p class="middle_li_p3">电话：+86 771 2804 771 / 2804 722</p>
+			</li>
+			<li class="middle_li">
+				<p class="middle_li_p1">北海分公司</p>
+				<span class="middle_li_p2">广西北海市北海大道189号嘉福文华苑2栋三单元402室<a href="javascript:;"><img src="img/联系我们3.png" alt=""></a></span>
+				<p class="middle_li_p3">电话：+86 779 3221006</p>
+			</li>
+		</ul>
+		</div>
+	</div>
+
+
+	<!-- 尾部	 -->
+	<div class="bottom">
+		<div class="bottom1">
+			<img src="img/首页_r2_c3.png" alt="">
+			<span>联系我们</span>
+			<img src="img/首页_r2_c3.png" alt="">
+		</div>
+		<div class="bottom2">
+			<img src="img/首页_r2_c2.png" alt="">
+		</div>
+		<div class="bottom3">
+			<span>Copyright&nbsp;&copy;&nbsp;1998-2015&nbsp;写意集团版权所有</span>
+		</div>
+	</div>
+</div>
+<script>
+	$(function(){
+
+		$('.uls li').hover(function(){
+			$(this).stop(true,true).animate({
+				backgroundColor:'#d80c18',
+			},500);
+			$(this).find('.secondDiv').stop(true,true).slideDown(500);
+		},function(){
+			$(this).stop(true,true).animate({
+				backgroundColor:'none'
+			},500)
+			$(this).find('.secondDiv').stop(true,true).slideUp(500);
+		})
+
+		$('.top_a').hover(function(){
+			$(this).stop(true,true).animate({
+				color:'white'
+			},500)
+		},function(){
+			$(this).stop(true,true).animate({
+				color:'#1e1e1e'
+			},500)
+		})
+
+		$('.secondDiv a').hover(function(){
+			$(this).stop(true,true).animate({
+				backgroundColor:'#d80c18',
+				opacity:0.5
+			},500,function(){
+				$(this).stop(true,true).animate({color:"white"},500);
+			})
+		},function(){
+			$(this).stop(true,true).animate({
+				backgroundColor:'none',
+				color:'#1e1e1e',
+				opacity:1
+			},500,function(){
+				$(this).stop(true,true).animate({color:"black"},500);
+			})
+		})
+	})
+</script>
+</body>
+</html>

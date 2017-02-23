@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: '微软雅黑';
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+
+
+
+
+/*头部*/
+.top{
+	width: 100%;
+	height: 285px;
+	border-bottom:7px solid #d80c18;
+}
+.top1{
+	width: 100%;
+	background: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.top1 img{
+	float: left;
+}
+.top1 ul{
+	float: right;
+}
+.top1 ul li{
+	float: left;
+	display: inline-block;
+	height: auto;
+	font-size: 15px;
+	padding:36px 25px;
+}
+.top_a{
+	color: #1e1e1e;
+}	
+.gy{
+	width: 60px;
+	/*height: 92px;*/
+	display: block;
+	position: relative;
+}
+.secondDiv{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 92px;
+	width: 110px;
+	height: auto;
+	line-height: none;
+}
+.secondDiv a{
+	display: inline-block;
+	margin-top:3px; 
+	height: 26px;
+	width: 110px;
+	text-align: center;
+	line-height: 26px;
+	color: #1e1e1e;
+	background:#cfd0d2;
+	font-size: 14px;
+}
+.top2{
+	margin-top:92px; 
+	width: 100%;
+	/*height: 285px;*/
+}
+.top2 img{
+	width: 100%;
+	height: 285px;
+}
+.top2 span{
+	position: absolute;
+	top: 214px;
+	left: 158px;
+	font-size: 34px;
+	color: white;
+}
+
+
+/*头部*/
+
+
+
+
+
+/*中间部分*/
+.middle{
+	background: url(../img/联系我们2.png);
+	width: 100%;
+}
+.middle_div{
+	padding-left: 177px;
+	padding-bottom: 75px;
+}
+.middle_span1{
+	display: inline-block;
+	padding-top: 97px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	color: #595757;
+
+	font-weight: 500;
+}
+.middle_span1 p{
+	vertical-align: middle;
+	display: inline-block;
+	width: 8px;
+	height: 50px;
+	background: #d80c18;
+	margin-right: 20px;
+}
+.middle_li{
+	margin-top: 37px;
+	margin-left: 30px;
+}
+.middle_li_p1{
+	font-size: 18px;
+	color: #595757;
+}
+.middle_li_p2{
+	display: inline-block;
+	font-size: 17px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+	color: #595757;
+}
+.middle_li_p2 a{
+	margin-left: 15px;
+}
+.middle_li_p2 a img{ 
+	width: 77px;
+	height: 23px;
+	vertical-align: middle;
+}
+.middle_li_p3{
+	font-size: 17px;
+	color: #595757;
+}
+
+
+
+
+
+/*中间部分*/
+
+
+
+
+
+
+/*尾部*/
+.bottom{
+	width: 100%;
+	height: 457px;
+}
+.bottom1{
+	width: 100%;
+	height: 168px;
+	text-align: center;
+	line-height: 168px;
+}
+.bottom1 span{
+	font-size: 30px;
+	color: #d80c18;
+	padding:0 30px;
+	vertical-align: middle;
+}
+.bottom2{
+	width: 100%;
+	height: 223px;
+}
+.bottom3{
+	width: 100%;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	background: #e03d46;
+	font-size: 20px;
+	color: #f6d6d7;
+}
+
+
+
+
+/*尾部*/

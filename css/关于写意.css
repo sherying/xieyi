@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: '微软雅黑';
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+
+
+
+
+/*头部*/
+.top{
+	z-index: 9999;
+	width: 100%;
+	height: 285px;
+	border-bottom:7px solid #d80c18;
+}
+.top1{
+	width: 100%;
+	background: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.top1 img{
+	float: left;
+}
+.top1 ul{
+	float: right;
+}
+.top1 ul li{
+	float: left;
+	display: inline-block;
+	height: auto;
+	font-size: 15px;
+	padding:36px 25px;
+}
+.top_a{
+	color: #1e1e1e;
+}	
+.gy{
+	width: 60px;
+	/*height: 92px;*/
+	display: block;
+	position: relative;
+}
+.secondDiv{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 92px;
+	width: 110px;
+	height: auto;
+	line-height: none;
+}
+.secondDiv a{
+	display: inline-block;
+	margin-top:3px; 
+	height: 26px;
+	width: 110px;
+	text-align: center;
+	line-height: 26px;
+	color: #1e1e1e;
+	background:#cfd0d2;
+	font-size: 14px;
+}
+.top2{
+	margin-top:92px; 
+	width: 100%;
+	/*height: 285px;*/
+}
+.top2 img{
+	width: 100%;
+	height: 285px;
+}
+.top2 span{
+	position: absolute;
+	top: 259px;
+	left: 162px;
+	font-size: 34px;
+	color: white;
+}
+
+
+
+/*头部*/
+
+
+
+
+
+/*中间部分*/
+.middle{
+	background: url(../img/关于写意1.png);
+	width: 100%;
+	border-bottom:7px solid red; 
+}
+.middle1{
+	width: 100%;
+	padding:92px 0 63px 0; 
+	text-align: center;
+}
+.middle1 span{
+	font-size: 30px;
+	color: #d80c18;
+	padding:0 30px;
+	vertical-align: middle;
+}
+.middle2{
+	margin-left: 196px;
+}
+.middle2 span{
+	display: inline-block;
+	width: 955px;
+	font-size: 15px;
+	line-height: 29px;
+	color: #595757;
+}
+.middle3{
+	margin:35px 0 45px 196px;
+}
+.middle3 img{
+	margin: 0 11px;
+}
+.middle3 p{
+	font-size: 16px;
+	color: #595757;
+}
+
+.middle4{
+	margin-left: 196px;
+	/*margin-bottom: 117px;*/
+}
+.middle4 span{
+	display: inline-block;
+	width: 955px;
+	font-size: 15px;
+	line-height: 29px;
+	color: #595757;
+}
+.middle5{
+	width: 100%;
+	padding:110px 0 53px 0; 
+	text-align: center;
+}
+.middle5 span{
+	font-size: 30px;
+	color: #d80c18;
+	padding:0 30px;
+	vertical-align: middle;
+}
+.middle6{
+	width: 853px;
+	margin-left: 196px;
+	margin-bottom: 144px;
+}
+.middle6_div1{
+	margin-left: 99px;
+	width: 292px;
+	float: left;
+	margin-right: 170px;
+}
+.middle6_div1 p{
+	display: inline-block;
+	width: 292px;
+	font-size: 17px;
+	color: #595757;
+	line-height: 30px;
+}
+..middle6_div2{
+	width: 292px;
+	float: left;
+}
+.middle6_div2 p{
+	display: inline-block;
+	float: left;
+	width: 292px;
+	font-size: 17px;
+	color: #595757;
+	line-height: 30px;
+	/*overflow: hidden;*/
+}
+.middle7{
+	margin-left:196px; 
+	position: relative;
+	margin-bottom: 242px;
+}
+.middle7 span{
+	font-size: 20px;
+	color: #595757;
+	/*margin-left: 99px;*/
+}
+.middle7_img1{
+	margin-left: 22px;
+}
+.middle7_img2{
+	/*padding-top: 80px;*/
+	position: absolute;
+	right: 236px;
+	top: 62px;
+}
+.middle_next{
+	background: url(../img/关于写意2.png);
+	width: 100%;
+	/*border-bottom:7px solid red; */
+}
+.middle_next1{
+	padding: 129px 0 0 153px;
+}
+.middle_next1 span{
+	display: inline-block;
+	font-size: 33px;
+	color: red;
+	padding: 18px 29px 13px 29px;
+	border: 1px solid red;
+}
+.middle_next2{
+	margin: 21px 0 0 242px;
+	padding-bottom: 180px;
+}
+.middle_next2_img{
+	float: left;
+	display: inline-block;
+	width: 21px;
+}
+.middle_next2_div{
+	float: left;
+	width: 865px;
+	margin-left: 27px;
+	/*overflow: hidden;*/
+}
+.middle_next2_div p{
+	display: inline-block;
+	/*float: left;*/
+	width: 865px;
+	margin-top: 35px;
+	font-size: 14px;
+	color: #595757;
+}
+.return1{
+	position: fixed;
+	border: none;
+	display: none;
+	bottom: 457px;
+	right: 0;
+}
+/*中间部分*/
+
+
+
+
+
+
+/*尾部*/
+.bottom{
+	width: 100%;
+	height: 457px;
+}
+.bottom1{
+	width: 100%;
+	height: 168px;
+	text-align: center;
+	line-height: 168px;
+}
+.bottom1 span{
+	font-size: 30px;
+	color: #d80c18;
+	padding:0 30px;
+	vertical-align: middle;
+}
+.bottom2{
+	width: 100%;
+	height: 223px;
+}
+.bottom3{
+	width: 100%;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	background: #e03d46;
+	font-size: 20px;
+	color: #f6d6d7;
+}
+
+
+
+
+/*尾部*/
